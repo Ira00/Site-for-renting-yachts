@@ -1,0 +1,151 @@
+[
+    
+    {   
+        "name": "Sun Odyssey 32i (2009)",
+        "country": "Хорватія",
+        "price": 616,
+        "type": "Парусна яхта",
+        "img": "img/yachtimg/sun_odyssey_32i.jpg",
+        "booked": ["2021-11-28", "2021-12-05", "2021-12-19","2021-12-26"]
+    },
+
+    {
+        "name": "Elan Express (1981)",
+        "country": "Хорватія",
+        "price": 507,
+        "type": "Парусна яхта",
+        "img": "img/yachtimg/elan_express_1981.jpg",
+        "booked": ["2021-11-28", "2021-12-05", "2021-12-19","2021-12-26"]
+    },
+    {
+        "name": "Dufour 412 Grand Large (2017)",
+        "country": "Хорватія",
+        "price": 1845,
+        "type": "Парусна яхта",
+        "img": "img/yachtimg/defour_412.jpeg",
+        "booked": ["2021-11-28", "2021-12-05", "2021-12-19","2021-12-26"]
+    },
+    {
+        "name": "Hanse 418 (2018)",
+        "country": "Хорватія",
+        "price": 1850,
+        "type": "Парусна яхта",
+        "img": "img/yachtimg/hanse_418.jpg",
+        "booked": []
+    },
+    {
+        "name": "Sun Odyssey 449 (2017)",
+        "country": "Хорватія",
+        "price": 2340,
+        "type": "Парусна яхта",
+        "img": "img/yachtimg/sun_odyssey_449.jpg",
+        "booked": []
+    },
+    {
+        "name": "Lagoon 39 (2013)",
+        "country": "Хорватія",
+        "price": 2340,
+        "type": "Катамаран",
+        "img": "img/yachtimg/lagoon_39.jpg",
+        "booked": []
+    },
+    {
+        "name": "Bali 4.1 (2019)",
+        "country": "Хорватія",
+        "price": 2375,
+        "type": "Катамаран",
+        "img": "img/yachtimg/bali_41.jpg",
+        "booked": []
+    },
+    {
+        "name": "Lagoon 40 (2019)",
+        "country": "Хорватія",
+        "price": 2430,
+        "type": "Катамаран",
+        "img": "img/yachtimg/lagoon_40.jpg",
+        "booked": []
+    },
+    {
+        "name": "Zaffiro 34 (2005)",
+        "country": "Хорватія",
+        "price": 2450,
+        "type": "Моторна яхта",
+        "img": "img/yachtimg/zaffro_34.jpg",
+        "booked": []
+    },
+    {
+        "name": "Sealine C390 (2019)",
+        "country": "Хорватія",
+        "price": 2430,
+        "type": "Моторна яхта",
+        "img": "img/yachtimg/sealine_c390.jpg",
+        "booked": []
+    },
+    {
+        "name": "Johnson 87 (2006)",
+        "country": "Хорватія",
+        "price": 40000,
+        "type": "Моторна яхта",
+        "img": "img/yachtimg/johnson_87.jpg",
+        "booked": []
+    },
+    {
+        "name": "Dufour 412 Grand Large (2017)",
+        "country": "Туреччина",
+        "price": 2320,
+        "type": "Парусна яхта",
+        "img": "img/yachtimg/dufour_412.jpg",
+        "booked": []
+    },
+    {
+        "name": "Excess 11 (2021)",
+        "country": "Туреччина",
+        "price": 2808,
+        "type": "Катамаран",
+        "img": "img/yachtimg/excess_11.jpg",
+        "booked": []
+    },
+    {
+        "name": "Motoryacht (2004)",
+        "country": "Туреччина",
+        "price": 13300,
+        "type": "Моторна яхта",
+        "img": "img/yachtimg/motoryacht_2004.jpg",
+        "booked": []
+    },
+    {
+        "name": "Oceanis 38.1 (2017)",
+        "country": "Туреччина",
+        "price": 1448,
+        "type": "Парусна яхта",
+        "img": "img/yachtimg/oceanis_381.jpg",
+        "booked": []
+    },
+    {
+        "name": "Bavaria 46 Cruiser (2016)",
+        "country": "Греція",
+        "price": 2324,
+        "type": "Парусна яхта",
+        "img": "img/yachtimg/bavaria_46.jpg",
+        "booked": []
+    },
+    {
+        "name": "Lagoon 42 (2020)",
+        "country": "Греція",
+        "price": 2808,
+        "type": "Катамаран",
+        "img": "img/yachtimg/lagoon_42.jpg",
+        "booked": []
+    },
+    {
+        "name": "Axopar 28 T-Top (2017)",
+        "country": "Греція",
+        "price": 4851,
+        "type": "Моторна яхта",
+        "img": "img/yachtimg/axopar_28.jpg",
+        "booked": []
+    }
+
+
+      
+]

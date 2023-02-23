@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пошук</title>
+    <link rel="stylesheet" href="css/index_style.css"  rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/search_style1.css"  rel="stylesheet" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src = "search.js"></script>
+    <script src = "index.js"></script>
+</head>
+<body>
+    <div id = "wrapper">
+        <header class="header">
+            <div class="header_top">
+              <a href="index.html" class="home_link"><img src="img/icon_home.png" alt="" class="home"></a>
+              <p class="logo">scarlet sails</p>
+              <div class="menu">
+                <ul>
+                  <li>
+                    <a href="#" class="item1">Оренда яхт</a>
+                  </li>
+                  <li>
+                    <a href="regions.html" class="item2">Регіони яхтингу</a>
+                  </li>
+                  <li>
+                    <a href="contacts.html" class="item3">Контакти</a>
+                  </li>
+                </ul>
+              </div>
+            </div>    
+        </header>
+
+        <div class = "search">
+            <div class = "search_bar">
+                
+                    <label>Місце відправлення</label>
+                    <input id="place-input" type="text" placeholder="Хорватія, Туреччина, Греція... " oninput="dropList()" autocomplete="off">
+                    <div id = "search_block" class = "search_class">
+                        
+                    </div>
+                
+                    <label>Тип яхти</label>        
+                    <!-- <input id="type_yacht-input" type="text" placeholder="Моторна, катамаран... "> -->
+                    <select name="" id="type_yacht-input" class="type_yacht-input">
+                      <option>Катамаран</option>
+                      <option>Моторна яхта</option>
+                      <option>Парусна яхта</option>
+                    </select>
+                    <div class="data">
+                      <label for="" class="data_begin">Початок</label>
+                      <label for="" class="data_end">Кінець</label>
+                    </div>
+                    <div class="data">
+                      <input type="date" class="data_begin-input">
+                      <input type="date" class="data_end-input">
+                    </div>
+                    <label>Ціна</label>
+                    <div class="price-choice">
+                        <input type = "text" placeholder="Ціна від..." id = "priceFrom">
+                        <input type = "text" placeholder="Ціна до..." id = "priceTo">
+                    </div>
+                    
+                    <button class = "btn" onclick = "searchYacht()">Пошук</button>
+                    
+                    
+                
+            </div>
+            <div class = "search_results">
+                
+            </div>
+
+        </div>
+        <footer class="footer">
+            <div class="wrapper_footer">
+              <p class="logo">scarlet sails</p>
+              <div class="wrapper_footer_links">
+                <div class="links_block">
+                  <a href="#">Оренда яхт</a>
+                  <a href="regions.html">Регіони яхтингу</a>
+                  <a href="F&Q.html">Часті запитання</a>
+                </div>
+                <div class="links_block">
+                  <a href="contacts.html">Контакти</a>
+                  <a href="aboutUs.html">Про нас</a>
+                  <a href="copyrights.html">Політика <br> конфіденційності</a>
+                </div>
+                <div class="links_block">
+                  <a href="#">Блог</a>
+                  <div class="icons">
+                    <a href="#" class="facebook"><img src="img/facebook_white.png" alt=""></a>
+                    <a href="#" class="instagram"><img src="img/instagram_white.png" alt=""></a>
+                    <a href="#" class="telegram"><img src="img/telegram_white.png" alt=""></a>
+                  </div>
+                </div>
+                <div class="links_block">
+                  <a href="#">
+                    <div class="btn btn_footer">
+                      <p class="btn_footer_link">Замовити дзвінок</p>              
+                    </div>
+                  </a>
+                  <p class="phone">+38 (044) 678-12-11</p>
+                  <a href="#" class="email">scarlet_sails@gmail.com</a>
+                </div>
+              </div>
+            </div>    
+          </footer>
+    </div>
+</body>
+</html>
