@@ -1,0 +1,81 @@
+.header_top{
+    padding: 3% 4.3%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.search_bar{
+    flex: 1;
+    margin: 2%;
+    border: solid 1px #B5b5b5;
+    padding: 1%;
+	
+}
+
+.search_results{
+    flex: 3;
+}
+
+#search_block{
+    width: 99%;
+    max-height: 120px;
+    overflow-y: scroll;
+}
+
+#search_result{
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.price-choice{
+    display: flex;
+    flex-direction: row;
+}
+
+#data{
+    margin-bottom:20px;
+}
+
+.btn{
+    color: white;
+    width: 100%;
+    border: none;
+}
+
+#yachtResult{
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    width: 100%;
+}
+
+#yachtimg{
+    flex:1;
+}
+
+#yachtim{
+    object-fit: cover;
+}
+
+#yachtinfo{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#yachtorder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

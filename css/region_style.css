@@ -1,0 +1,24 @@
+.header_top{
+  padding: 3% 4.3%;
+}
+.content{
+  padding: 3% 8.825% 6.25% 10.625%;
+}
+.content_top{
+  margin-bottom: 3%;
+}
+.pop_reg{
+  width: 31%;
+  margin-bottom: 3%;
+  margin-right: 1.8%;
+}
+@media screen and (max-width: 600px){
+  .pop_reg{
+    width: 47%
+  }
+}
+@media screen and (max-width: 415px){
+  .pop_reg{
+    width: 100%
+  }
+}

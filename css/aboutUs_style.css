@@ -1,0 +1,50 @@
+.header_top{
+  padding: 3% 4.3%;
+}
+.content{
+  padding: 3% 10.625% 6.25%;
+}
+.img1{
+  width: 55%;
+  float: right;
+  margin-left: 2.8125%;
+}
+p{
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+}
+.information2{
+  margin-top: 3%;
+}
+.director{
+  width: 50%;
+  margin-right: 2.8125%;
+  float: left;
+}
+.img2{
+  width: 100%;
+}
+.director p{
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+}
+@media screen and (max-width: 900px){
+  p{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 500px){
+  .img1{
+    width: 100%;
+  }
+  .director{
+    width: 100%;
+  }
+  p{
+    font-size: 14px;
+  }
+}

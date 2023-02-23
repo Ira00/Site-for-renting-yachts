@@ -1,0 +1,476 @@
+*, body{
+  margin: 0;
+  padding: 0;  
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+header{
+  background: url('../img/header.png');
+}
+.header_top{
+  display: flex;
+  padding: 3% 4.3% 8.75%;
+}
+.home{
+  width: 22px;
+  height: 22px;
+}
+.logo{
+  margin-left: 9.5%;
+  margin-right: 15px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+.menu{
+  margin-left: auto;
+}
+.header_top>*:last-child{
+  align-items: flex-end;
+}
+ul {
+  list-style: none; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+li{
+  display: inline;
+  margin-right: 15px;
+}
+.menu a{
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:hover p{
+  text-decoration: underline;
+}
+.header_wrapper{
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 6.6%;
+  flex-wrap: wrap;
+}
+.form{
+  background-color: #fff;
+  padding-left: 65px;
+  padding-right: 65px;
+  width: 24%;
+}
+
+.search_bar{
+  flex: 1;
+  margin: 2%;
+  border: solid 1px #B5b5b5;
+  padding: 1%;
+height: 480px;
+}
+
+.search_results{
+  margin: 3%;
+  flex: 3;
+}
+
+#search_block{
+  width: 99%;
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+input#place-input{
+  background: url(../img/search.png) no-repeat center left;
+  padding-left:30px;
+}
+input {
+  width: 89%;
+  height: 24px;
+}
+::placeholder{
+  font-size: 14px;
+  font-weight: 300;
+}
+.about{
+  margin-left: auto;
+  width: 48%;
+  align-self: flex-end;
+}
+.title{
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 4.3%;
+}
+.line{
+  border: 1px solid #000000;
+}
+.title_text{
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  display: block;
+  background-color: #fff;
+  padding: 7px 37px;
+}
+label{
+  display: block;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+}
+.type_yacht-input {
+  display: block;
+  width: 100%;  
+}
+.data{
+  display: flex;  
+}
+.data_begin {
+  width: 50%;
+}
+.btn{  
+  background: #065A65;
+  margin: 25px 0;
+  text-align: center;
+  font-weight: bold;
+  padding: 18px;
+  font-size: 17px;
+  line-height: 140%; 
+  letter-spacing: 0.05em;
+  display: block; 
+}
+.btn_search{
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.btn{
+  color: white;
+  width: 100%;
+  border: none;
+}
+.about_company{
+  margin-left: 18.5%;
+  margin-right: 12.125%;
+  display: flex;
+  margin-top: 37px;
+  flex-wrap: wrap;
+  /* margin: 2.3% auto; */
+}
+.number_description{
+  margin-right: 17.3px;
+}
+.number{
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 54px;  
+  letter-spacing: 0.05em;
+}
+.description{
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+.wraper_numbers{
+  display: flex;
+}
+.links{
+  margin-left: auto;
+}
+.links .item1 {
+  margin-right: 44px;
+}
+.icons{
+  width: 150px;
+  display: flex;
+  gap: 20px;
+  margin-top: 11px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icons .telegram{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.regions{
+  margin: 6.25% 10.625%;
+}
+
+
+
+h2{
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 140%;  
+  letter-spacing: 0.05em;
+}
+.regions_photo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.125%;
+  gap: 1.875%;
+
+}
+.regions23_photo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.region.active{
+  width: 100%;  
+  display: block;
+}
+.region{
+  display: none;
+}
+
+/* .region4{
+  background: url('../img/Регіон\ 4.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 58%;
+}
+.region4:hover{
+  background: url('../img/Регіон\ 4\ Hover.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 58%;
+} */
+
+.btn_region{
+  background: #fff;
+  border: 1px solid black;
+  width: 258px;
+  /* margin: 3.125% auto; */
+}
+.btn_region_link{
+  text-decoration: none;
+  color: #000;
+}
+.btn_region_wrapper{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.type_of_yacht{
+  margin: 6.25% 10.625%;
+}
+.photo_yacht{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.125%;
+  margin-bottom: 1.25%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.line{
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 5% 3.125%;
+}
+.yacht.active{
+  width: 100%;  
+  display: block;
+}
+
+.yacht{
+  display: none;
+}
+.photo_yacht a {
+  margin: auto;
+}
+.description_yacht{
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4.9%;
+}
+.footer{
+  background: #065A65;
+  padding: 8% 15%;
+}
+.footer .logo{
+  color: rgb(255, 255, 255);
+  margin: auto 0;
+  margin-right: 15px;
+}
+.wrapper_footer{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper_footer_links{
+  display: flex;
+  gap: 57px;
+}
+.links_block{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.links_block a{
+  color: #fff;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+}
+.btn_footer{
+  border: 1px solid #FFFFFF;
+  padding: 12px 30px;
+  width: 150px;
+  margin-top: 0;
+}
+.btn_footer_link{
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  
+}
+.phone{
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;  
+  letter-spacing: 0.05em;
+  margin-left: auto;
+}
+.email{
+  margin-left: auto;
+  
+}
+@media screen and (max-width: 1280px) {
+  .form{
+    width: 35%;
+    margin-right: 10px;
+  }
+  .about{
+    width: 35%;
+  }
+  .wrapper_footer_links{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1160px) {
+  /* .links{
+    margin-top: 25px;
+    margin-left: 0;
+  } */
+  .links{
+    display: none;
+  }
+  .wraper_numbers{
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 970px){
+  .description_yacht{
+    margin: 0;
+  }
+}
+@media screen and (max-width: 880px) {
+  .title{
+    font-size: 25px;
+  }
+  .title_text{
+    padding: 15px;
+  }
+  .about{
+    width: 25%;
+  }
+  .form{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header_wrapper{
+    flex-direction: column;
+  }
+  .form{
+    width: 60%;    
+  }
+  .about {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .title_text{
+    padding: 7px 37px;
+  }
+  .description_yacht{
+    font-size: 20px;
+    
+  }
+  .catamaran{
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width: 600px){
+  .description_yacht{
+    font-size: 15px;    
+  }
+  .sailing{
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 500px){
+  .wraper_yacht{
+    display: flex;
+  }
+  .photo_yacht{
+    flex-direction: column;
+  }
+  .description_yacht{
+    flex-direction: column;
+    margin: 25% 3%;
+    font-size: 18px;
+  }
+  .regions_photo{
+    flex-direction: column;
+    width: 80%;
+    margin: 4% auto;
+  }
+  .wraper_numbers{
+    flex-direction: column;
+  }
+  .about{
+    align-self: center;
+  }
+  .wrapper_footer{
+    flex-direction: column;
+  }
+  .footer .logo{
+    margin-bottom: 15%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .data_begin,.data_end {
+    font-size: 13px;
+  } 
+  .btn_region{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  } 
+}

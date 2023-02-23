@@ -1,0 +1,173 @@
+.header_top{
+    padding: 3% 4.3%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+}
+
+.search_bar{
+    flex: 1;
+    margin: 2%;
+    border: solid 1px #B5b5b5;
+    padding: 1%;
+  height: 480px;
+  }
+  
+  .search_results{
+    margin: 3%;
+    flex: 3;
+  }
+  
+  #search_block{
+    width: 99%;
+    max-height: 100px;
+    overflow-y: scroll;
+  }
+
+#search_result{
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.price-choice{
+    display: flex;
+    flex-direction: row;
+}
+
+#data{
+    margin-bottom:20px;
+}
+
+.btn{
+    color: white;
+    width: 100%;
+    border: none;
+}
+
+#yachtResult{
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#yachtimg{
+    flex:4;
+} 
+
+img{
+    width: 100%;
+}
+#yachtim{
+    object-fit: cover;
+}
+
+#yachtinfo{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 2%;
+}
+
+#yachtorder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#yachtorder button{
+    background: #29BFFF;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 140%; 
+    letter-spacing: 0.05em;
+    display: block; 
+    color: rgb(255, 255, 255);
+    border: 0ch;
+    height: 50%;
+    margin: auto 0;
+}
+#yachtname p:first-child, #yachtprice p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+
+    color: #29BFFF;
+
+}
+#yachtname p:last-child{
+    margin-top: 2%;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+
+    color: #9A9A9A
+}
+#yachtprice p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#yachtprice p:nth-child(2n){
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+#yachtprice p:last-child{
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+
+    color: #9A9A9A;
+}
+@media screen and (max-width: 1200px) {
+    #place-input{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #place-input{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 800px) {
+    #place-input{
+        width: 90%;
+    }
+    .search{
+        flex-direction: column;
+    }
+    .search_bar{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 550px){
+    .search_bar{
+        width: 90%;
+    }
+    #yachtResult{
+        flex-direction: column;
+    }
+    #yachtorder button{
+        padding: 15px 20px;
+    }
+}
